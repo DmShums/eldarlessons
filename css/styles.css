@@ -1,0 +1,75 @@
+/* Font - шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap');
+
+p{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+
+
+
+html{
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+nav{
+    padding: 10px;
+    background-color: rgb(66, 162, 218);
+}
+nav span{
+    color: white;
+    margin-right: 20px;
+}
+.header-div{
+    padding: 100px;
+    background-image: url(../img/aiplane.jpg);
+}
+
+.heading-3{
+    /* Змінює колір */
+    color: rgb(8, 39, 75);
+}
+.container{
+    /* Вирівнює в ряд, поки що не вчити */
+    display: flex;
+    border: solid 2px green;
+    margin: 10px;
+    padding: 10px;
+}
+.absolute-div{
+    /* Фон */
+    background: rgb(165, 167, 102);
+    padding: 12px;/* Всередині елемента додає місце*/
+    margin-left: 100px;/*Ззовні*/
+    margin-right: 100px;
+    /* Висота */
+    height: 300px;
+    /* Ширина */
+    width: 10%;
+}
+#heading-one{
+    color: purple;
+}
+
+p{
+    color: lime;
+}
+
+.apple-png{
+    width: 100px;
+}
+
+footer{
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    color: white;
+    /* property: value;  */
+    /* властивість: значення; */
+    text-align: center;
+}

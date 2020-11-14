@@ -1,0 +1,159 @@
+<!DOCTYPE html> <!-- Визначає що ця сторінка є html-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Мета дані які використовуються що записувати приховану інформацію-->
+        <!-- Підключаємо css -->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <span>Home</span>
+                <span>Main page</span>
+                <span>Second page</span>
+            </nav>
+            <div class="header-div">
+                <h1>Hello world</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, praesentium.</p>
+            </div>
+        </header>
+
+
+        <h1 id="heading-one">Заголовок 1</h1> <!-- Заголовок від слова heading-->
+        <h2 style="color: red;">Заголовок 2</h2>
+        <h3 class="heading-3">Заголовок 3</h3>
+        <h4>Заголовок 4</h4>
+        <h5>Заголовок 5</h5>
+        <h6>Заголовок 6</h6>
+        <p>Lorem ipsum dolor <strong> Жирний текст</strong> sit amet <em>  <!-- emphasize - виділено -->Текст Курсивом</em> consectetur adipisicing elit. Totam, quae!</p> <!--Paragraph звичайний текст-->
+
+        <!-- Звичайний текст. <p> від слова параграф -->
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Similique <abbr title="HyperText markup language"><!-- Абревіатура -->HTML</abbr> distinctio nisi cum quo 
+            жовтий кожух <br> quaerat ex! Enim, <del>перекреслений текст</del> repellendus dolorem! Perferendis
+             nihil est ipsa, <s>GKDkgke=wEKG</s> voluptatem explicabo harum saepe incidunt 
+             voluptate, sed rerum accusantium <br>dignissimos <ins>TEXT</ins> tempora itaque alias totam. Voluptates, 
+             ea maxime.</p>
+
+             <div class="container">
+                 <!-- Контейнер з картинкою, текстом та посиланням -->
+                <div class="absolute-div">
+                    <img class="apple-png" src="img/apple.png">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#heading-one"> Hello world</a>
+                </div>
+                <div class="absolute-div">
+                    <img class="apple-png" src="img/apple.png" alt="На жаль, у нас проблеми з сервером(тут має бути картинка)">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#heading-one"> Hello world</a>
+                </div>
+                <div class="absolute-div">
+                    <img class="apple-png" src="img/apple.png" alt="У вас поганий інтернет">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#heading-one"> Hello world</a>
+                </div>
+
+             </div>
+         
+        <!-- Список(ordered list) -->
+        <ol>
+            <li>Зелений</li>
+            <li>Синій</li>
+            <li>Червоний</li>
+            <li>Рожевий</li>
+        </ol>
+        <hr>
+        <ul>
+            <li>bmw</li>
+            <li>opel</li>
+            <li>ferrari</li>
+            <li>nisan</li>
+        </ul>
+        <hr>
+
+        <!-- Табличка(не обов'язково вчити, але в голові тримай) -->
+        <table>
+            <thead>
+                <tr>
+                    <th>First name</th>
+                    <th>Last name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bob</td>
+                    <td>Mars</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>22</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <form action="server.php">
+            <fieldset>
+                <legend>Особиста інформація</legend>
+                <h4>Ім'я</h4>
+                <input type="text" name="fistname" required="required"><br> <!-- Обов'язкове поле для вводу – required-->
+                <h4>Прізвище</h4>
+                <input type="text" name="lastname"><br>
+                <br>
+                <input type="radio" name="options"> Вибір номер 1
+                <input type="radio" name="options"> Вибір номер 2
+                <br>
+                <input type="checkbox" name="checkboxes"> Вибір раз
+                <input type="checkbox" name="checkboxes"> Вибір два
+                <input type="checkbox" name="checkboxes"> Вибір три
+                <br>
+                <h4>Select:</h4>
+                <!-- Dropdown list -->
+                <select name="cars" id="">
+                    <option value="BMW">BMW</option>
+                    <option value="Volvo">Volvo</option>
+                    <option value="Shkoda">Shkoda</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit">
+            </fieldset>
+            <!-- text area -->
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        </form>
+        <hr>
+        <br>
+        <button>Клацни на мене</button>
+        <hr>
+        <!-- Відступи -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- src від слова source: джерело -->
+        <img src="img/aiplane.jpg" alt="">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <p>Copyright 2020</p>
+        </footer>
+    </body>
+</html>
+
+
