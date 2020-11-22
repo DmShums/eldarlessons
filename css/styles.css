@@ -8,19 +8,21 @@ p{
 
 
 
-html{
-    margin: 0;
-}
 body{
     margin: 0;
 }
 nav{
+    width: 100%;
     padding: 10px;
     background-color: rgb(66, 162, 218);
+    position: fixed;
 }
 nav span{
     color: white;
     margin-right: 20px;
+}
+nav span:hover{
+    color: green;
 }
 .header-div{
     padding: 100px;
@@ -32,27 +34,59 @@ nav span{
     color: rgb(8, 39, 75);
 }
 .container{
+    height: 500px;
     /* Вирівнює в ряд, поки що не вчити */
     display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */
     border: solid 2px green;
     margin: 10px;
     padding: 10px;
+    /* align-items: flex-end; */
+    justify-content: space-evenly;
+    /* flex-basis: 10rem 20px 100px 10%; */
+}
+#red-div{
+    flex: 1;
+    /* flex-basis: 27%; */
+    /* flex-grow: 2; */
+    /* align-self: flex-start; */
+    background: red;
+}
+#blue-div{
+    flex: 4;
+    /* flex-basis: 1rem; */
+    /* flex-grow: 5; */
+    /* align-self: center; */
+    background: blue;
+}
+#green-div{
+    flex: 3;
+    /* flex-basis: 100px; */
+    /* flex-grow: 3; */
+    background: green;
+}
+
+#pink-div{
+    flex: 4;
+    /* flex-basis: 10%; */
+    /* flex-grow: 4; */
+    /* align-self: center; */
+    background: pink;
 }
 .absolute-div{
     /* Фон */
-    background: rgb(165, 167, 102);
-    padding: 12px;/* Всередині елемента додає місце*/
-    margin-left: 100px;/*Ззовні*/
-    margin-right: 100px;
-    /* Висота */
-    height: 300px;
-    /* Ширина */
-    width: 10%;
+    height: 250px;
+    
+    
+    /* width: 10%; */
 }
 #heading-one{
     color: purple;
 }
-
+a:visited{
+    color: orange;
+}
 p{
     color: lime;
 }
